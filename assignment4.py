@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Titanic Data Dashboard")
 
-df = pd.read_csv("/Users/veronikasippala/Desktop/TitanicData2.csv", encoding="ISO-8859-1", sep=";", on_bad_lines="skip")
+df = pd.read_csv("/Users/veronikasippala/Desktop/School/DataAnalys/TitanicData2.csv", encoding="ISO-8859-1", sep=";", on_bad_lines="skip")
 
 with st.sidebar:
     st.header("Dataset Statistics")
